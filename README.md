@@ -1,10 +1,18 @@
+中文 | [ENGLISH](./README.EN.md) 
+
 # 用c/c++语言复刻黄金矿工 Replicate the gold miner in c/c++ language
 
 <img src="./images/BJUT.png" title="" alt="" data-align="center">
 
 本项目主要使用了c/c++语言，以及Easyx库，对黄金矿工进行了复刻。如有任何问题，可以联系作者。
 
+****
 
+## 关键词：
+
+EasyX, 小游戏, C语言, 黄金矿工.
+
+****
 
 ## 项目信息：
 
@@ -16,13 +24,13 @@
 
 也欢迎各位发邮件询问作者的其他联系方式进行扩列（笑）。
 
-
+****
 
 ## 项目分析
 
 黄金矿工是一款休闲游戏。游戏要求玩家在有限时间内，通过键盘或鼠标控制矿工钩子的收放实现矿物的抓取。抓取后会获得相应的分数。当60秒倒计时结束后，如若玩家当前分数超过目标分数，则可进入下一层，否则判定为失败，并将玩家的分数录入排行榜。每过5层，玩家可进入商店购买强力道具助力玩家通关。
 
-
+****
 
 ## 游戏功能
 
@@ -35,8 +43,8 @@
 4. 拉回矿物获得相应分数。大金矿物50分，中金矿34分，小金矿17分，石块10分，幸运盲袋在30分至80分随机，钻石100分。
 
 5. 有目标分数、当前分数和倒计时显示。每关60秒，目标分数依据当前分数与场上矿物价值决定。在倒计时结束时到达或超越目标分数则可进入下一关，将场上所有矿物抓空可在倒计时结束前进入下一关。如若没有达到或超过目标分数则会在倒计时结束后游戏结束。
-
-
+   
+   ****
 
 ## 拓展功能
 
@@ -51,8 +59,8 @@
 5. 排行榜功能，在玩家游戏失败或按QUIT按钮退出后将玩家信息写入排行榜。
 
 6. 倒计时剩余5秒时变红，提醒玩家时间所剩无几。
-
- 
+   
+   ****
 
 ## 界面展示：
 
@@ -60,75 +68,57 @@
 
 <img src="./images/menu.png" title="" alt="" data-align="center">
 
-
-
 ### 游戏界面(以第五关为例)
 
 <img src="./images/game1.png" title="" alt="" data-align="center">
-
-
 
 ### 进入下一层界面
 
 <img src="./images/next.png" title="" alt="" data-align="center">
 
-
-
 ### 失败界面
 
 <img src="./images/fail.png" title="" alt="" data-align="center">
-
-
 
 ### 帮助界面
 
 <img src="./images/helps.png" title="" alt="" data-align="center">
 
-
-
 ### 排行榜界面
 
 <img src="./images/chart.png" title="" alt="" data-align="center">
-
-
 
 ### 商店界面
 
 <img src="./images/shop.png" title="" alt="" data-align="center">
 
-
-
 ### 刮彩票界面
 
 <img src="./images/lottery.png" title="" alt="" data-align="center">
-
-
 
 ### 不死图腾效果界面
 
 <img src="./images/nodietotem.png" title="" alt="" data-align="center">
 
-
-
 ### 大力王效果界面
 
 <img src="./images/darlingWang.png" title="" alt="" data-align="center">
 
-
+****
 
 ## 展示视频
 
 [项目展示](./项目展示.mp4) 
 
-
+****
 
 ## 作者联系方式及后话：
 
 ### Email
 
-Email:lrh1011101100@gmail.com
+lrh1011101100@gmail.com
 
-
+****
 
 ### 后话
 
